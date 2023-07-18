@@ -1,0 +1,16 @@
+
+Linux basics & commands
+
+mkdir - create a directory or directories 
+
+examples:
+mkdiir csrk 
+mkdir cricinfo
+mkdir hello 
+
+we can use options like 
+-m for sets the access mode for the new directory 
+-p if the parent directory doesn't exist it will crate that
+-v print a message for each created directory 
+
+
