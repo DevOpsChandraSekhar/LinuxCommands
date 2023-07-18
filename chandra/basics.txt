@@ -14,3 +14,7 @@ we can use options like
 -v print a message for each created directory 
 
 
+mkdir -p csrk/csr1/csr2  it will create the parent directories 
+if you want to see either it was created or not use ls -l 
+
+
