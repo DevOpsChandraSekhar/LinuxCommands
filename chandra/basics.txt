@@ -17,4 +17,14 @@ we can use options like
 mkdir -p csrk/csr1/csr2  it will create the parent directories 
 if you want to see either it was created or not use ls -l 
 
+locate cmd:
 
+below message for apple Mac Air M2:
+check based on your OS  what is the error and verify before install
+WARNING: The locate database (/var/db/locate.database) does not exist.
+To create the database, run the following command:
+
+  sudo launchctl load -w /System/Library/LaunchDaemons/com.apple.locate.plist
+
+Please be aware that the database can take some time to generate; once
+the database has been created, this message will no longer appear.
